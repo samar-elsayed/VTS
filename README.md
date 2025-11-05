@@ -12,10 +12,10 @@ A Vacation Tracking System (VTS) will provide individual employees with the capa
 - Enables the HR and system administration personnel to override all actions restricted by rules, with logging of those overrides
 - Keeps activity logs for all transactions
 - Allows managers to directly award personal leave time (with system-set limits)
+- Provides a Web service interface for other internal systems to query any given employee’s vacation request summary.
+- Interacts with HR department legacy systems to retrieve required employee information and changes.
 
 # Non-functional requirements:
-- Provides a Web service interface for other internal systems to query any given employee’s vacation request summary.
-- Should provide Web service interface to HR department legacy systems to retrieve required employee information and changes.
 - Uses existing hardware and middleware.
 - Service will be implemented as an extension to the existing intranet portal system, and uses the portal’s single-sign-on mechanisms for all authentication.
 
